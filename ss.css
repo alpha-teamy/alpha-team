@@ -1,0 +1,104 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+header nav {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+header nav h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s, color 0.3s;
+}
+nav ul li a:hover {
+    background: #f39c12;
+    color: #000;
+    border-radius: 5px;
+}
+
+/* Team Section */
+.team {
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+}
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.team-member {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.team-member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.team-member p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Hidden Services */
+.hidden {
+    display: none;
+}
+
+/* Button Style */
+.btn {
+    background: #b00101;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: background 0.3s;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #e67e22;
+}
+footer {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 1rem 0;
+}

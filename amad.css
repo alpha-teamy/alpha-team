@@ -1,0 +1,288 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1
+{
+    color: #000;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+.hassan_imgg
+{
+    background-size: cover;
+    border-image-width: auto;
+    border-image: fill;
+}
+/* Navigation Bar */
+header nav {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+header nav h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s, color 0.3s;
+}
+nav ul li a:hover {
+    background: #f39c12;
+    color: #000;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://source.unsplash.com/1920x1080/?technology') no-repeat center center/cover;
+    height: 90vh;
+    color: #fff;
+    text-align: center;
+}
+.hero-content {
+    max-width: 600px;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero-content .btn {
+    background: #b00101;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: background 0.3s;
+}
+.hero-content .btn:hover {
+    background: #e67e22;
+}
+.hero-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Team Section */
+.team {
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+}
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.team-member {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.team-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.team-member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.team-member p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 1rem 0;
+}
+.muhammed_img , .hassan_img , .amad_img
+{
+    background-size: cover;
+    border-radius: 500px;
+    height: 200px;
+    width: 200px;
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+/* Contact Us Section Styling */
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.contact-info {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details div {
+    margin-bottom: 15px;
+}
+
+.contact-details h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-details p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    width: 55%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.social-media img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;  /* Space between icons */
+    transition: transform 0.3s;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.tiktok , .instagram
+{
+    margin-left: 10px;
+}
+.tiktok , .instagram 
+{
+    margin-right: 15px;
+}
+.telegram , .whatsapp
+{
+    margin-right: 5px;
+}
+
+.social-media a:hover img {
+    transform: scale(1.1);  /* Slightly enlarge on hover */
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
